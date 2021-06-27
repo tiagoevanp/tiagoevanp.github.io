@@ -1,86 +1,76 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Site feito para ajudar Priscila e Tiago a construir o seu novo lar.">
-        <meta name="keywords" content="Priscila, Tiago, vaquinha, ajuda, casa">
-        <meta name="author" content="Tiago Evan">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tetris.js</title><link rel="icon" href="./resources/block.png"><style>html, body {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			width: 100%;
+			font-family: "DigitalDisplay";
+			text-align: center;
+			background-color: #c9c9c9;
+		}
 
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Merienda&family=Montserrat+Alternates&display=swap" rel="stylesheet">
+		canvas {
+			vertical-align: top;
+			border: #1f1f1f solid 2px;
+		}
 
-        <title>Priscila & Tiago - WebSite de Casa Nova</title>
-    <link href="./main.css" rel="stylesheet"></head>
-    <body>
-        <div class="container">
-            <header class="my-5 pb-5 text-center">
-                <h1 class="md:text-6xl text-3xl text-red-400">WebSite de Casa Nova</h1>
-                <h2 class="md:text-3xl text-lg text-gray-600">Tiago e Priscila em busca de construir seu novo lar</h2>
-                <video id="priTi_mp4" class="m-auto" autoplay loop muted playsinline></video>
-            </header>
+		h1, h2 {
+			font-size: 20px;
+			margin: 0;
+		}
 
-            <section>
-                <p class="mx-5 md:text-lg text-sm text-justify leading-loose tracking-wider">Olá! Seja bem vindo a nossa página. Somos um casal que está junto quase seis anos (completamos em 26 de novembro de 2020, que é o nosso aniversário de namoro e também de noivado), e desde lá moramos em diversos lugares pagando aluguel. Atualmente, depois de muito batalharmos as poucas coisas que temos, estivemos engajados em conseguir a nossa primeira casa própria, e veja só, nós finalmente conseguimos!</p>
+		#bg {
+			display: flex;
+			align-items: flex-start;
+			height: 100%;
+			width: 800px;
+			margin: auto;
+			image-rendering: pixelated;
+		}
 
-                <div class="border border-gray-300 rounded-full separator"></div>
+		#wrapper {
+			top: 80px;
+			width: 800px;
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
 
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+		#phaser-game {
+			top: -200px;
+			background-color: #89a25a;
+			padding: 4px;
+			display: flex;
+			flex-direction: row-reverse;
+			border: #121212 solid 8px;
+			border-bottom: grey solid 8px;
+			border-right: grey solid 8px;
+		}
 
-                    <div class="flex flex-col">
-                        <img id="casa" class="m-auto" alt="Desenho de Casa">
-                    </div>
+		#game-hud {
+			width: 100px;
+			padding-left: 10px;
+			padding-right: 10px;
+			text-align: center;
+		}
 
-                    <div>
-                        <h3 class="text-center mx-5 md:text-2xl text-md mt-4 mb-2 text-red-400">Por que esta página existe</h3>
+		#buttons {
+			width: 400px;
+			margin-top: 120px;
+			display: flex;
+			justify-content: space-around;
+			color: white;
+			font-size: 18px;
+		}
 
-                        <p class="mx-5 md:text-lg text-sm text-justify leading-loose tracking-wider">Esta página existe como uma forma simples, inteligente e carinhosa de podermos realizar o nosso chá de construção (existem tantos chás diferentes hoje em dia não é mesmo?) de forma segura e moderna. Atualmente como todos sabem, estamos passando por um momento delicado envolvendo riscos à saúde de todos, inclusive a nossa, o que nos impede de criarmos aglomeração através de uma reunião ou festinha, recebendo todos os mais próximos de nós com o carinho que lhes é devido pessoalmente. Assim, desta forma nós resolvemos realizar nosso website de casa nova, como opção para alcançar a todos nessa corrente de solidariedade.</p>
-                    </div>
-                </div>
-                
-                <div class="border border-gray-300 rounded-full separator"></div>
-                
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                    <div>
-                        <h3 class="text-center mx-5 md:text-2xl text-md mt-4 mb-2 text-red-400">Necessidades da casa nova</h3>
-    
-                        <p class="mx-5 md:text-lg text-sm text-justify leading-loose tracking-wider">A compra de uma casa própria é algo extremamente difícil e custoso. Envolve muitas prestações, muitas modificações, disponibilidade de tempo e dinheiro.</p>
-                        <p class="mx-5 md:text-lg text-sm text-justify leading-loose tracking-wider"> O chá de construção tem como objetivo arrecadar materiais ou valores para promover o término da casa. Conseguimos listar algumas das necessidades as quais percebemos no momento:
-    
-                        <ul class="list-disc mx-5 md:text-lg text-sm text-justify p-5">
-                            <li>Aumento dos muros do pátio e gradeamento da frente da casa (infelizmente é impossível viver no nosso país sem ter isto como um mínimo de segurança);</li>
-                            <li>Compra de eletrodomésticos para rede 220V (tudo que temos é 110V);</li>
-                            <li>Construção de mais um quarto pois temos 2 filhos.</li>
-                        </ul>
-                    </div>
-                    <div class="flex flex-col">
-                        <img id="ferramentas" class="m-auto" alt="Desenho de ferramentas">
-                    </div>
-                </div>
+		#sound-image {
+			visibility: visible;
+		}
 
-                <div class="border border-gray-300 rounded-full separator"></div>
-
-                <h3 class="text-center mx-5 md:text-2xl text-md mt-4 mb-2 text-red-400">Como ajudar</h3>
-
-                <p class="mx-5 md:text-lg text-sm text-justify leading-loose tracking-wider">Normalmente é montada uma lista de presentes que é disponibilizada aos convidados, no entanto, decidimos fazer nosso pedido de ajuda de outra forma.
-                <p class="mx-5 md:text-lg text-sm text-justify leading-loose tracking-wider">Depois de muito pesquisar soluções seguras e eficazes para receber auxílio por meio deste site, encontramos uma forma mais fácil para todos. Trata-se do uso de um aplicativo de celular confiável e seguro chamado <a class="hover:text-green-800 text-green-600 underline" href="https://www.picpay.com/">PicPay</a>.</p>
-                <p class="mx-5 md:text-lg text-sm text-justify leading-loose tracking-wider">Este aplicativo funciona como uma espécie de carteira virtual, no qual é possível realizar pagamentos de contas, transferência de dinheiro, compra de créditos para celular e alguns outros serviços como os de “stream” de séries. Enfim, é uma solução muito interessante para o nosso caso.</p>
-                <p class="mx-5 md:text-lg text-sm text-justify leading-loose tracking-wider">A Utilização dele é bem simples, basta baixar o aplicativo PicPay na sua loja virtual (Google Play, App Store), abrir o aplicativo e nele mesmo criar uma conta (é gratuito), por fim cadastrar no aplicativo uma forma de pagamento, assim como é feito em muitos outros aplicativos de transporte e entregas domiciliares.</p>
-                <p class="mx-5 md:text-lg text-sm text-justify leading-loose tracking-wider">Feito isso, aqui abaixo você vai encontrar um “QR Code” que pode ser escaneado diretamente do aplicativo ou se você estiver olhando esta página no seu celular, você pode clicar no “link” abaixo para ser direcionado através dele à página de pagamento do aplicativo com a nossa conta de recebimento. Lá você verá que é até mesmo possível deixar um pequeno texto juntamente com a realização do pagamento, essa mensagem normalmente ficará visível a todos os amigos de ambas as contas do aplicativo (isso pode ser ajustado nas configurações de privacidade do aplicativo).</p>
-                <p class="mx-5 md:text-lg text-sm text-justify leading-loose tracking-wider">Realmente esperamos que se você decidir nos ajudar, possa também deixar um recadinho. Estaremos atentos e com certeza responderemos com muita gratidão seu carinho por nós.</p>
-                
-                <div id="qrcode" class="text-center py-5 my-5 m-auto">
-                    <span class="text-sm">Escaneie o QR Code...</span>
-                    
-                    <img id="img-qrcode" class="p-5 m-auto my-4 border rounded-lg bg-white" alt="QR Code">
-                    
-                    <a class="hover:text-red-800 text-red-500 underline text-sm" href="https://picpay.me/tiago.evangelista.pinto">
-                        <span class="text-sm">ou clique aqui</span>
-                    </a>
-                </div>
-            </section>
-            <footer class="my-5 pt-5">
-                <p class="text-center md:text-base text-xs leading-loose tracking-wider text-gray-700">Assim que tudo isso passar (Covid-19), esperamos recebê-los em uma visitinha na nossa nova casa.</p>
-            </footer>
-        </div>
-    <script type="text/javascript" src="./bundle.js"></script></body>
-</html>
+		.button {
+			image-rendering: pixelated;
+			width: 40px;
+			height: 40px;
+			margin-bottom: 10px;
+			cursor: pointer;
+		}</style><script defer="defer" src="./bundle.js"></script></head><body><div id="bg"><div id="wrapper"><div id="phaser-game"><div id="game-hud"><div><h1>SCORE</h1><h2 id="score">000000</h2></div><div><h1>HI-SCORE</h1><h2 id="hi-score">000000</h2></div><div id="img-piece"></div><div><h1>SPEED</h1><h2 id="speed">0</h2></div><div><h1>LEVEL</h1><h2 id="level">0</h2></div><div id="sound-image" style="width: 24px; margin:auto; margin-top: 20px;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 32 32"><g><path d="M20.4,2.9c-0.3-0.2-0.7-0.1-1,0.1L9.7,10H3c-0.6,0-1,0.4-1,1v10c0,0.6,0.4,1,1,1h6.7l9.7,7.1c0.2,0.1,0.4,0.2,0.6,0.2   c0.2,0,0.3,0,0.5-0.1c0.3-0.2,0.5-0.5,0.5-0.9V3.8C21,3.4,20.8,3,20.4,2.9z"/><path d="M27.1,9.3c-0.4-0.4-1-0.4-1.4,0s-0.4,1,0,1.4C27.2,12.1,28,14,28,16s-0.8,3.9-2.3,5.3c-0.4,0.4-0.4,1,0,1.4   c0.2,0.2,0.5,0.3,0.7,0.3c0.2,0,0.5-0.1,0.7-0.3C29,20.9,30,18.6,30,16S29,11.1,27.1,9.3z"/><path d="M24.7,12.7c-0.4-0.4-1-0.4-1.4,0.1c-0.4,0.4-0.3,1,0.1,1.4c0.5,0.5,0.8,1.2,0.8,1.9s-0.3,1.4-0.8,1.9   c-0.4,0.4-0.4,1-0.1,1.4c0.2,0.2,0.5,0.3,0.7,0.3c0.2,0,0.5-0.1,0.7-0.3c1-0.9,1.5-2.1,1.5-3.3S25.6,13.5,24.7,12.7z"/></g></svg></div></div></div><div id="buttons"><div><div id="mute" class="button"></div>mute</div><div><div id="reset" class="button"></div>reset</div><div><div id="about" class="button"></div>about</div></div></div></div></body></html>
