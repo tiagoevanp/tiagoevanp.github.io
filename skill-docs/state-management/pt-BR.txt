@@ -1,0 +1,135 @@
+1:"$Sreact.fragment"
+2:I[21675,["/_next/static/chunks/6bf19a35787e3209.js","/_next/static/chunks/b24bbcc837645bda.js","/_next/static/chunks/3e72c9466a49ec00.js","/_next/static/chunks/42557c7a96efd0a0.js"],"ThemeProvider"]
+3:I[49645,["/_next/static/chunks/6bf19a35787e3209.js","/_next/static/chunks/b24bbcc837645bda.js","/_next/static/chunks/3e72c9466a49ec00.js","/_next/static/chunks/42557c7a96efd0a0.js"],"ScreenProvider"]
+4:I[61362,["/_next/static/chunks/6bf19a35787e3209.js","/_next/static/chunks/b24bbcc837645bda.js","/_next/static/chunks/3e72c9466a49ec00.js","/_next/static/chunks/42557c7a96efd0a0.js"],"SidebarProvider"]
+5:I[29322,["/_next/static/chunks/6bf19a35787e3209.js","/_next/static/chunks/b24bbcc837645bda.js","/_next/static/chunks/3e72c9466a49ec00.js","/_next/static/chunks/42557c7a96efd0a0.js"],"PageNavbar"]
+6:I[36862,["/_next/static/chunks/6bf19a35787e3209.js","/_next/static/chunks/b24bbcc837645bda.js","/_next/static/chunks/3e72c9466a49ec00.js","/_next/static/chunks/42557c7a96efd0a0.js"],"default"]
+7:I[20827,["/_next/static/chunks/6bf19a35787e3209.js","/_next/static/chunks/b24bbcc837645bda.js","/_next/static/chunks/3e72c9466a49ec00.js","/_next/static/chunks/42557c7a96efd0a0.js"],"default"]
+8:I[29306,["/_next/static/chunks/6bf19a35787e3209.js","/_next/static/chunks/b24bbcc837645bda.js","/_next/static/chunks/3e72c9466a49ec00.js","/_next/static/chunks/42557c7a96efd0a0.js","/_next/static/chunks/d65487cdd15262ad.js"],"default"]
+9:I[35644,["/_next/static/chunks/6bf19a35787e3209.js","/_next/static/chunks/b24bbcc837645bda.js","/_next/static/chunks/3e72c9466a49ec00.js","/_next/static/chunks/42557c7a96efd0a0.js"],"ClientSegmentRoot"]
+a:I[58289,["/_next/static/chunks/6bf19a35787e3209.js","/_next/static/chunks/b24bbcc837645bda.js","/_next/static/chunks/3e72c9466a49ec00.js","/_next/static/chunks/42557c7a96efd0a0.js","/_next/static/chunks/2485edd2be1ef209.js"],"default"]
+16:I[78883,["/_next/static/chunks/6bf19a35787e3209.js","/_next/static/chunks/b24bbcc837645bda.js","/_next/static/chunks/3e72c9466a49ec00.js","/_next/static/chunks/42557c7a96efd0a0.js"],"default"]
+:HL["/_next/static/chunks/b70ab45dfa82ed23.css","style"]
+:HL["/_next/static/chunks/e393bb8a71f01384.css","style"]
+0:{"P":null,"b":"_Q3k5awnHu9TaSpLxL9A1","p":"","c":["","skill-docs","state-management","pt-BR"],"i":false,"f":[[["",{"children":["skill-docs",{"children":["state-management",{"children":["pt-BR",{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/b70ab45dfa82ed23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/e393bb8a71f01384.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/6bf19a35787e3209.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/b24bbcc837645bda.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3e72c9466a49ec00.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/42557c7a96efd0a0.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","link",null,{"rel":"icon","href":"/icons/favicon.ico","sizes":"any"}]}],["$","body",null,{"className":"noto_sans_9da210a5-module__E42EhW__variable noto_sans_mono_dc659caa-module__UteOdG__variable","children":["$","$L2",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L8",null,{}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/ba683ccc0caf4f8a.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]}]}]]}]]}],{"children":["skill-docs",["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/2485edd2be1ef209.js","async":true,"nonce":"$undefined"}]],["$","$L9",null,{"Component":"$a","slots":{"children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]},"params":{},"promise":"$@b"}]]}],{"children":["state-management",["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["pt-BR",["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","h1",null,{"className":"mdx-components-module-sass-module__IwkyZG__h1","children":"Gerenciamento de estado"}],"\n",["$","h2",null,{"className":"mdx-components-module-sass-module__IwkyZG__h2","children":"Context API"}],"\n",["$","p",null,{"className":"mdx-components-module-sass-module__IwkyZG__p","children":["A Context API é uma funcionalidade do React que permite compartilhar dados entre componentes sem precisar passar ",["$","code",null,{"children":"props"}]," manualmente em cada nível da árvore de componentes (",["$","em",null,{"children":"prop drilling"}],")."]}],"\n",["$","p",null,{"className":"mdx-components-module-sass-module__IwkyZG__p","children":"Exemplo de criação de um contexto e seu provider:"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-javascript","children":"import React, { createContext, useState, useContext } from 'react';\r\n\r\nconst ThemeContext = createContext();\r\n\r\nexport const ThemeProvider = ({ children }) => {\r\n  const [isDarkMode, setIsDarkMode] = useState(false);\r\n\r\n  const toggleTheme = () => {\r\n    setIsDarkMode(prev => !prev);\r\n  };\r\n\r\n  const value = {\r\n    isDarkMode,\r\n    toggleTheme,\r\n    theme: isDarkMode ? 'dark' : 'light'\r\n  };\r\n\r\n  return (\r\n    <ThemeContext.Provider value={value}>\r\n      {children}\r\n    </ThemeContext.Provider>\r\n  );\r\n};\r\n\r\nexport const useTheme = () => {\r\n  const context = useContext(ThemeContext);\r\n  \r\n  if (!context) {\r\n    throw new Error('useTheme must be used within a ThemeProvider');\r\n  }\r\n  \r\n  return context;\r\n};\n"}]}],"\n",["$","h2",null,{"className":"mdx-components-module-sass-module__IwkyZG__h2","children":"Redux"}],"\n","$Lc","\n","$Ld","\n","$Le","\n","$Lf","\n","$L10","\n","$L11","\n","$L12"],["$L13"],"$L14"]}],{},null,false]},null,false]},null,false]},null,false]},null,false],"$L15",false]],"m":"$undefined","G":["$16",["$L17","$L18"]],"s":false,"S":true}
+1a:I[20450,["/_next/static/chunks/6bf19a35787e3209.js","/_next/static/chunks/b24bbcc837645bda.js","/_next/static/chunks/3e72c9466a49ec00.js","/_next/static/chunks/42557c7a96efd0a0.js","/_next/static/chunks/2485edd2be1ef209.js","/_next/static/chunks/c8f65eec8697ce94.js"],"ComparativeTableExample"]
+1b:I[19258,["/_next/static/chunks/6bf19a35787e3209.js","/_next/static/chunks/b24bbcc837645bda.js","/_next/static/chunks/3e72c9466a49ec00.js","/_next/static/chunks/42557c7a96efd0a0.js","/_next/static/chunks/2485edd2be1ef209.js","/_next/static/chunks/c8f65eec8697ce94.js"],"Footer"]
+1c:I[6398,["/_next/static/chunks/6bf19a35787e3209.js","/_next/static/chunks/b24bbcc837645bda.js","/_next/static/chunks/3e72c9466a49ec00.js","/_next/static/chunks/42557c7a96efd0a0.js"],"OutletBoundary"]
+1e:I[55294,["/_next/static/chunks/6bf19a35787e3209.js","/_next/static/chunks/b24bbcc837645bda.js","/_next/static/chunks/3e72c9466a49ec00.js","/_next/static/chunks/42557c7a96efd0a0.js"],"AsyncMetadataOutlet"]
+20:I[6398,["/_next/static/chunks/6bf19a35787e3209.js","/_next/static/chunks/b24bbcc837645bda.js","/_next/static/chunks/3e72c9466a49ec00.js","/_next/static/chunks/42557c7a96efd0a0.js"],"ViewportBoundary"]
+22:I[6398,["/_next/static/chunks/6bf19a35787e3209.js","/_next/static/chunks/b24bbcc837645bda.js","/_next/static/chunks/3e72c9466a49ec00.js","/_next/static/chunks/42557c7a96efd0a0.js"],"MetadataBoundary"]
+23:"$Sreact.suspense"
+c:["$","p",null,{"className":"mdx-components-module-sass-module__IwkyZG__p","children":["O Redux é uma biblioteca JavaScript para gerenciamento de estado de aplicações. Ele funciona como um ",["$","em",null,{"children":"container de estado previsível"}]," que ajuda a gerenciar o estado global da sua aplicação de maneira consistente."]}]
+d:["$","p",null,{"className":"mdx-components-module-sass-module__IwkyZG__p","children":"Princípios Fundamentais:"}]
+e:["$","ol",null,{"className":"mdx-components-module-sass-module__IwkyZG__ol","children":["\n",["$","li",null,{"className":"mdx-components-module-sass-module__IwkyZG__li","children":["\n",["$","p",null,{"className":"mdx-components-module-sass-module__IwkyZG__p","children":"Single Source of Truth"}],"\n",["$","ul",null,{"className":"mdx-components-module-sass-module__IwkyZG__ul","children":["\n",["$","li",null,{"className":"mdx-components-module-sass-module__IwkyZG__li","children":"Todo o estado da aplicação está armazenado em um único objeto chamado store"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"className":"mdx-components-module-sass-module__IwkyZG__li","children":["\n",["$","p",null,{"className":"mdx-components-module-sass-module__IwkyZG__p","children":"State é Read-Only"}],"\n",["$","ul",null,{"className":"mdx-components-module-sass-module__IwkyZG__ul","children":["\n",["$","li",null,{"className":"mdx-components-module-sass-module__IwkyZG__li","children":"O estado não pode ser modificado diretamente"}],"\n",["$","li",null,{"className":"mdx-components-module-sass-module__IwkyZG__li","children":"Mudanças são feitas através de actions"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"className":"mdx-components-module-sass-module__IwkyZG__li","children":["\n",["$","p",null,{"className":"mdx-components-module-sass-module__IwkyZG__p","children":"Mudanças são Feitas com Pure Functions"}],"\n",["$","ul",null,{"className":"mdx-components-module-sass-module__IwkyZG__ul","children":["\n",["$","li",null,{"className":"mdx-components-module-sass-module__IwkyZG__li","children":"Reducers são funções puras que especificam como o estado muda"}],"\n"]}],"\n"]}],"\n"]}]
+f:["$","p",null,{"className":"mdx-components-module-sass-module__IwkyZG__p","children":"Exemplo de uso:"}]
+19:T7fa,// store.js
+import { createStore } from 'redux';
+
+// Actions
+const ADD_TODO = 'ADD_TODO';
+const TOGGLE_TODO = 'TOGGLE_TODO';
+
+// Action Creators
+export const addTodo = (text) => ({
+  type: ADD_TODO,
+  payload: { id: Date.now(), text, completed: false }
+});
+
+export const toggleTodo = (id) => ({
+  type: TOGGLE_TODO,
+  payload: id
+});
+
+// Reducer
+const initialState = {
+  todos: []
+};
+
+const todoReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case ADD_TODO:
+      return {
+        ...state,
+        todos: [...state.todos, action.payload]
+      };
+    
+    case TOGGLE_TODO:
+      return {
+        ...state,
+        todos: state.todos.map(todo =>
+          todo.id === action.payload
+            ? { ...todo, completed: !todo.completed }
+            : todo
+        )
+      };
+    
+    default:
+      return state;
+  }
+};
+
+// Store
+export const store = createStore(todoReducer);
+
+// App.js
+import React from 'react';
+import { Provider } from 'react-redux';
+import { store } from './store';
+import TodoList from './components/TodoList';
+import AddTodo from './components/AddTodo';
+
+function App() {
+  return (
+    <Provider store={store}>
+      <div className="App">
+        <h1>Todo App com Redux</h1>
+        <AddTodo />
+        <TodoList />
+      </div>
+    </Provider>
+  );
+}
+
+// components/AddTodo.js
+import React, { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { addTodo } from '../store';
+
+const AddTodo = () => {
+  const [text, setText] = useState('');
+  const dispatch = useDispatch();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (text.trim()) {
+      dispatch(addTodo(text));
+      setText('');
+    }
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <input
+        type="text"
+        value={text}
+        onChange={(e) => setText(e.target.value)}
+        placeholder="Add todo..."
+      />
+      <button type="submit">Add</button>
+    </form>
+  );
+};
+10:["$","pre",null,{"children":["$","code",null,{"className":"language-javascript","children":"$19"}]}]
+11:["$","$L1a",null,{}]
+12:["$","$L1b",null,{"previous":{"title":"lifecycle","href":"lifecycle"}}]
+13:["$","script","script-0",{"src":"/_next/static/chunks/c8f65eec8697ce94.js","async":true,"nonce":"$undefined"}]
+14:["$","$L1c",null,{"children":["$L1d",["$","$L1e",null,{"promise":"$@1f"}]]}]
+15:["$","$1","h",{"children":[null,[["$","$L20",null,{"children":"$L21"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L22",null,{"children":["$","div",null,{"hidden":true,"children":["$","$23",null,{"fallback":null,"children":"$L24"}]}]}]]}]
+17:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/b70ab45dfa82ed23.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+18:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/e393bb8a71f01384.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+b:"$0:f:0:1:2:children:1:props:children:1:props:params"
+21:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"light dark"}]]
+1d:null
+1f:{"metadata":[["$","title","0",{"children":"Tiago's Webpage"}],["$","meta","1",{"name":"description","content":"Site pessoal de Tiago"}],["$","meta","2",{"name":"author","content":"Tiago the EvanBrother"}],["$","meta","3",{"name":"keywords","content":"Tiago,frontend,frontend developer,backend,backend developer,developer,software developer,react,js,javascript,ts,typescript,node.js,next.js"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"google","content":"notranslate"}],["$","meta","6",{"property":"og:title","content":"Tiago's Webpage"}],["$","meta","7",{"property":"og:description","content":"Personal webpage from Tiago the EvanBrother"}],["$","meta","8",{"property":"og:url","content":"https://tiagoevanp.github.io/"}],["$","meta","9",{"property":"og:site_name","content":"Tiago's Webpage"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:site","content":"https://tiagoevanp.github.io/"}],["$","meta","13",{"name":"twitter:creator","content":"Tiago the Evanbrother"}],["$","meta","14",{"name":"twitter:title","content":"Tiago's Webpage"}],["$","meta","15",{"name":"twitter:description","content":"Personal webpage from Tiago the EvanBrother"}]],"error":null,"digest":"$undefined"}
+24:"$1f:metadata"
