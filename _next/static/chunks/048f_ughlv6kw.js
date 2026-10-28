@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,22596,t=>{"use strict";t.S([98516,"useTranslation,B"])}]);

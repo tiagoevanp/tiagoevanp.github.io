@@ -1,0 +1,10 @@
+:HL["/_next/static/chunks/0c52ior88204j.css","style"]
+:HL["/_next/static/chunks/0vd0bvocsmam3.css","style"]
+:HL["/_next/static/media/7226b177135961b4-s.p.3mjzw95c0-_52.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/deb386b9bd551fac-s.p.1pt2_06aomutc.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/0louqq9x-te_u.css","style"]
+4:[["children",{"s":"__PAGE__","h":160}]]
+3:[["children",{"s":"pt-BR","h":96,"c":"$Q4"}]]
+2:[["children",{"s":"web-apis","h":96,"c":"$Q3"}]]
+1:[["children",{"s":"skill-docs","h":96,"c":"$Q2"}]]
+0:{"b":"0WzdYgQ9RLFL-ezO372Am","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
