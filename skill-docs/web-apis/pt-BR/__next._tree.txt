@@ -1,5 +1,5 @@
-:HL["/_next/static/chunks/31bzz8hgry7j4.css","style"]
-:HL["/_next/static/chunks/324o-65ln03-8.css","style"]
+:HL["/_next/static/chunks/0jss4ufnxoiyo.css","style"]
+:HL["/_next/static/chunks/3xao0p69xrf7r.css","style"]
 :HL["/_next/static/media/7226b177135961b4-s.p.3mjzw95c0-_52.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/deb386b9bd551fac-s.p.1pt2_06aomutc.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/chunks/0louqq9x-te_u.css","style"]
@@ -7,4 +7,4 @@
 3:[["children",{"s":"pt-BR","h":96,"c":"$Q4"}]]
 2:[["children",{"s":"web-apis","h":96,"c":"$Q3"}]]
 1:[["children",{"s":"skill-docs","h":96,"c":"$Q2"}]]
-0:{"b":"MbbMBLvlRFrirMqCWQ35m","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"cl0NYEIrYp0VJ_67MVKO4","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
