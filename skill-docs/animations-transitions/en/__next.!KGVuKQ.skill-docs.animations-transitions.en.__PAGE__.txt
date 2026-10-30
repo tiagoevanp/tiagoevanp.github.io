@@ -1,0 +1,56 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/11abu2cqp3v7c.js"
+3:I[72168,["$2"],"default"]
+4:I[82256,["$2"],"default"]
+9:"/_next/static/chunks/24m3pj8rrkatm.js"
+a:"/_next/static/chunks/20q_1pv-_qt-_.js"
+b:I[55803,["$9","$a"],"HtmlLang"]
+c:I[21675,["$9","$a"],"ThemeProvider"]
+d:I[49645,["$9","$a"],"ScreenProvider"]
+e:I[61362,["$9","$a"],"SidebarProvider"]
+f:I[29322,["$9","$a"],"PageNavbar"]
+12:"ClientSegmentRoot"
+13:I[28255,["$2"],"$12"]
+14:"/_next/static/chunks/2g7crba_t9mos.js"
+15:I[3308,["$9","$a","$14"],"SkillDocsLayout"]
+24:"ViewportBoundary"
+25:I[81007,["$2"],"$24"]
+26:"MetadataBoundary"
+27:I[81007,["$2"],"$26"]
+28:"$Sreact.suspense"
+29:I[43968,["$2"],"IconMark"]
+:HL["/_next/static/chunks/1jw0x4gjfui9v.css","style"]
+:HL["/_next/static/chunks/3uvjpeq6h5l-t.css","style"]
+6:X
+6:C
+7:X
+1c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","h1",null,{"className":"IwkyZG_h1","children":"Animations and Transitions"}],"\n",["$","p",null,{"className":"IwkyZG_p","children":["CSS ",["$","strong",null,{"children":"transitions"}]," are ideal for smooth changes between states, always requiring a trigger like ",["$","code",null,{"children":"hover"}],", ",["$","code",null,{"children":"focus"}],", or ",["$","code",null,{"children":"active"}],". They work as simple transition effects - perfect for buttons that change color on hover, menus that slide smoothly, or elements that change opacity. The syntax is straightforward: you define the property to be animated, the duration, and the timing function."]}],"\n",["$","p",null,{"className":"IwkyZG_p","children":["On the other hand, CSS ",["$","strong",null,{"children":"animations"}]," offer complete control over complex sequences through ",["$","em",null,{"children":"keyframes"}],", and can run automatically without user interaction. They are perfect for loading spinners, continuously pulsing elements, automatically typing text, or elaborate entrance and exit sequences. With keyframes you define specific points of the animation behavior (0 - 100%)."]}],"\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20"],["$L21"],"$L22"]}],"p":"$@23","v":null,"s":"$7"}}]]
+1a:[["children",{"s":"en","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]}],"p":"$@1b","v":"$6","s":"$7"},"c":"$Q1c"}]]
+18:[["children",{"s":"animations-transitions","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]}],"p":"$@19","v":"$6","s":"$7"},"c":"$Q1a"}]]
+11:[["children",{"s":"skill-docs","h":96,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/2g7crba_t9mos.js","async":true}]],["$","$L13",null,{"Component":"$15","slots":{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]},"serverProvidedParams":{"params":{},"promises":["$@16"]}}]]}],"p":"$@17","v":null,"s":"$7"},"c":"$Q18"}]]
+8:[["children",{"s":"(en)","h":112,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1jw0x4gjfui9v.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/3uvjpeq6h5l-t.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/24m3pj8rrkatm.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/20q_1pv-_qt-_.js","async":true}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"JhkFSG_variable JEHSeq_variable","children":[["$","$Lb",null,{}],["$","$Lc",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"children":["$","$Ld",null,{"children":["$","$Le",null,{"children":["$","$Lf",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:t:t:d:r:props:children:1:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],[]]}]}]}]}]}]]}]}]]}],"p":"$@10","v":null,"s":"$7"},"c":"$Q11"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}],"p":"$@5","v":"$6","s":"$7"},"c":"$Q8"},"h":{"r":["$","$1","h",{"children":[null,["$","$L25",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"light dark"}]]}],["$","$L27",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$28",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Tiago's Webpage"}],["$","meta","1",{"name":"description","content":"Personal webpage of Tiago, a full-stack engineer and React & TypeScript expert who also builds with PHP/Laravel and works as an AI engineer."}],["$","meta","2",{"name":"author","content":"Tiago the EvanBrother"}],["$","meta","3",{"name":"keywords","content":"Tiago,full-stack,frontend,frontend developer,backend,backend developer,developer,software developer,react,js,javascript,ts,typescript,node.js,next.js,php,laravel,python,ai engineer,agentic ai"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"google","content":"notranslate"}],["$","meta","6",{"property":"og:title","content":"Tiago's Webpage"}],["$","meta","7",{"property":"og:description","content":"Personal webpage of Tiago, a full-stack engineer and React & TypeScript expert who also builds with PHP/Laravel and works as an AI engineer."}],["$","meta","8",{"property":"og:url","content":"https://tiagoevanp.github.io/"}],["$","meta","9",{"property":"og:site_name","content":"Tiago's Webpage"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:site","content":"https://tiagoevanp.github.io/"}],["$","meta","13",{"name":"twitter:creator","content":"Tiago the Evanbrother"}],["$","meta","14",{"name":"twitter:title","content":"Tiago's Webpage"}],["$","meta","15",{"name":"twitter:description","content":"Personal webpage of Tiago, a full-stack engineer and React & TypeScript expert who also builds with PHP/Laravel and works as an AI engineer."}],["$","link","16",{"rel":"icon","href":"/icons/favicon.ico","sizes":"any"}],["$","$L29","17",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@2a","v":null,"s":"$7"}},"a":"$@2b","u":"$@2c","b":"-1CfNYfpJsCIvwBaliWFg"}
+2d:"/_next/static/chunks/3c9gdhaplr8oe.js"
+2e:"AnimationsAndTransitionsExample"
+2f:I[18134,["$9","$a","$14","$2d"],"$2e"]
+30:I[19258,["$9","$a","$14","$2d"],"Footer"]
+31:I[81007,["$2"],"OutletBoundary"]
+16:"$11:0:1:d:r:props:children:1:props:serverProvidedParams:params"
+1d:["$","div",null,{"children":["$","blockquote",null,{"className":"IwkyZG_blockquote","children":["\n",["$","p",null,{"className":"IwkyZG_p","children":["For performance, it's preferable to use ",["$","code",null,{"children":"transform"}]," and ",["$","code",null,{"children":"opacity"}]," instead of properties like ",["$","code",null,{"children":"width"}]," or ",["$","code",null,{"children":"margin"}],". It's also important to consider accessibility with ",["$","code",null,{"children":"prefers-reduced-motion"}]," for users sensitive to motion."]}],"\n"]}]}]
+1e:["$","h2",null,{"className":"IwkyZG_h2","children":"Practical examples"}]
+1f:["$","$L2f",null,{}]
+20:["$","$L30",null,{"previous":{"title":"modern_layouts","href":"modern-layouts"},"next":{"title":"sass","href":"sass"}}]
+21:["$","script","script-0",{"src":"/_next/static/chunks/3c9gdhaplr8oe.js","async":true}]
+22:["$","$L31",null,{"children":["$","$28",null,{"name":"Next.MetadataOutlet","children":"$@32"}]}]
+7:300
+32:null
+2c:true
+7:C
+2b:0
+1b:"$undefined"
+19:"$undefined"
+10:"$undefined"
+5:"$undefined"
+2a:"$undefined"
+23:"$undefined"
+17:"$undefined"

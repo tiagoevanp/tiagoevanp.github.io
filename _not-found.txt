@@ -1,34 +1,29 @@
 1:"$Sreact.fragment"
-2:"/_next/static/chunks/208dzc974gjee.js"
-3:"/_next/static/chunks/41mc_s7zcucwr.js"
-4:"/_next/static/chunks/207qkaxhh8b3x.js"
-5:I[55803,["$2","$3","$4"],"HtmlLang"]
-6:I[21675,["$2","$3","$4"],"ThemeProvider"]
-7:I[49645,["$2","$3","$4"],"ScreenProvider"]
-8:I[61362,["$2","$3","$4"],"SidebarProvider"]
-9:I[29322,["$2","$3","$4"],"PageNavbar"]
-a:I[72168,["$2","$3","$4"],"default"]
-b:I[82256,["$2","$3","$4"],"default"]
-c:"/_next/static/chunks/20w1taukwzr96.js"
-d:I[29306,["$2","$3","$4","$c"],"default"]
-11:I[84861,["$2","$3","$4"],"ClientPageRoot"]
-14:I[81007,["$2","$3","$4"],"OutletBoundary"]
-15:"$Sreact.suspense"
-17:"ViewportBoundary"
-18:I[81007,["$2","$3","$4"],"$17"]
-1a:"MetadataBoundary"
-1b:I[81007,["$2","$3","$4"],"$1a"]
-1d:I[21342,["$2","$3","$4"],"default",1]
-:HL["/_next/static/chunks/3-ppjoyp_wx6d.css","style"]
-:HL["/_next/static/chunks/15qf-5a3gt97_.css","style"]
-:HL["/_next/static/chunks/0louqq9x-te_u.css","style"]
-f:X
-10:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[["$","$L11",null,{"Component":"$d","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@12","$@13"]}}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0louqq9x-te_u.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/20w1taukwzr96.js","async":true,"nonce":"$undefined"}]],["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]]}],"p":false,"v":null}}]]
-e:[["children",{"s":"/_not-found","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$f"},"c":"$Q10"}]]
-0:{"P":null,"c":["","_not-found"],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3-ppjoyp_wx6d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/15qf-5a3gt97_.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/208dzc974gjee.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/41mc_s7zcucwr.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/207qkaxhh8b3x.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","link",null,{"rel":"icon","href":"/icons/favicon.ico","sizes":"any"}]}],["$","body",null,{"className":"E42EhW_variable UteOdG_variable","children":[["$","$L5",null,{}],["$","$L6",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"children":["$","$L7",null,{"children":["$","$L8",null,{"children":["$","$L9",null,{"children":["$","$La",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lb",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$Ld",null,{}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0louqq9x-te_u.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]}]]}]]}]]}],"p":false,"v":null},"c":"$Qe"},"h":{"r":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L18",null,{"children":"$L19"}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$15",null,{"name":"Next.Metadata","children":"$L1c"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":false,"v":null}},"m":"$undefined","G":["$1d",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3-ppjoyp_wx6d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/15qf-5a3gt97_.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"N-tntVs5JKF7lCq7hdP8A"}
-f:C
-12:{}
-13:"$10:0:1:d:r:props:children:0:props:serverProvidedParams:params"
-19:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"light dark"}]]
-16:null
-1c:[["$","title","0",{"children":"Tiago's Webpage"}],["$","meta","1",{"name":"description","content":"Personal webpage of Tiago, a full-stack engineer and React & TypeScript expert who also builds with PHP/Laravel and works as an AI engineer."}],["$","meta","2",{"name":"author","content":"Tiago the EvanBrother"}],["$","meta","3",{"name":"keywords","content":"Tiago,full-stack,frontend,frontend developer,backend,backend developer,developer,software developer,react,js,javascript,ts,typescript,node.js,next.js,php,laravel,python,ai engineer,agentic ai"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"google","content":"notranslate"}],["$","meta","6",{"property":"og:title","content":"Tiago's Webpage"}],["$","meta","7",{"property":"og:description","content":"Personal webpage of Tiago, a full-stack engineer and React & TypeScript expert who also builds with PHP/Laravel and works as an AI engineer."}],["$","meta","8",{"property":"og:url","content":"https://tiagoevanp.github.io/"}],["$","meta","9",{"property":"og:site_name","content":"Tiago's Webpage"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:site","content":"https://tiagoevanp.github.io/"}],["$","meta","13",{"name":"twitter:creator","content":"Tiago the Evanbrother"}],["$","meta","14",{"name":"twitter:title","content":"Tiago's Webpage"}],["$","meta","15",{"name":"twitter:description","content":"Personal webpage of Tiago, a full-stack engineer and React & TypeScript expert who also builds with PHP/Laravel and works as an AI engineer."}]]
+2:"/_next/static/chunks/0rd45ur_c-btt.js"
+3:"/_next/static/chunks/20q_1pv-_qt-_.js"
+4:I[55803,["$2","$3"],"HtmlLang"]
+5:I[21675,["$2","$3"],"ThemeProvider"]
+6:I[49645,["$2","$3"],"ScreenProvider"]
+7:I[61362,["$2","$3"],"SidebarProvider"]
+8:I[29322,["$2","$3"],"PageNavbar"]
+9:I[20924,["$2","$3"],"NotFound"]
+b:I[72168,["$2","$3"],"default"]
+c:I[82256,["$2","$3"],"default"]
+f:I[81007,["$2","$3"],"OutletBoundary"]
+10:"$Sreact.suspense"
+12:"ViewportBoundary"
+13:I[81007,["$2","$3"],"$12"]
+15:"MetadataBoundary"
+16:I[81007,["$2","$3"],"$15"]
+18:I[21342,[],"default",1]
+:HL["/_next/static/chunks/1jw0x4gjfui9v.css","style"]
+:HL["/_next/static/chunks/3uvjpeq6h5l-t.css","style"]
+d:X
+e:[["children",{"s":"__PAGE__","h":512,"d":{"r":["$","$1","c",{"children":[null,null,["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]]}],"p":false,"v":null}}]]
+a:[["children",{"s":"/_not-found","h":512,"d":{"r":["$","$1","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lc",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],"p":false,"v":"$d"},"c":"$Qe"}]]
+0:{"P":null,"c":["","_not-found"],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1jw0x4gjfui9v.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/3uvjpeq6h5l-t.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0rd45ur_c-btt.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/20q_1pv-_qt-_.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"JhkFSG_variable JEHSeq_variable","children":[["$","$L4",null,{}],["$","$L5",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"children":["$","$L6",null,{"children":["$","$L7",null,{"children":["$","$L8",null,{"children":["$","$L9",null,{}]}]}]}]}]]}]}]]}],"p":false,"v":null},"c":"$Qa"},"h":{"r":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L13",null,{"children":"$L14"}],["$","$L16",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$10",null,{"name":"Next.Metadata","children":"$L17"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":false,"v":null}},"m":"$undefined","G":["$18",[]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"-1CfNYfpJsCIvwBaliWFg"}
+d:C
+14:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"light dark"}]]
+19:I[43968,["$2","$3"],"IconMark"]
+11:null
+17:[["$","title","0",{"children":"Tiago's Webpage"}],["$","meta","1",{"name":"description","content":"Personal webpage of Tiago, a full-stack engineer and React & TypeScript expert who also builds with PHP/Laravel and works as an AI engineer."}],["$","meta","2",{"name":"author","content":"Tiago the EvanBrother"}],["$","meta","3",{"name":"keywords","content":"Tiago,full-stack,frontend,frontend developer,backend,backend developer,developer,software developer,react,js,javascript,ts,typescript,node.js,next.js,php,laravel,python,ai engineer,agentic ai"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"google","content":"notranslate"}],["$","meta","6",{"property":"og:title","content":"Tiago's Webpage"}],["$","meta","7",{"property":"og:description","content":"Personal webpage of Tiago, a full-stack engineer and React & TypeScript expert who also builds with PHP/Laravel and works as an AI engineer."}],["$","meta","8",{"property":"og:url","content":"https://tiagoevanp.github.io/"}],["$","meta","9",{"property":"og:site_name","content":"Tiago's Webpage"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:site","content":"https://tiagoevanp.github.io/"}],["$","meta","13",{"name":"twitter:creator","content":"Tiago the Evanbrother"}],["$","meta","14",{"name":"twitter:title","content":"Tiago's Webpage"}],["$","meta","15",{"name":"twitter:description","content":"Personal webpage of Tiago, a full-stack engineer and React & TypeScript expert who also builds with PHP/Laravel and works as an AI engineer."}],["$","link","16",{"rel":"icon","href":"/icons/favicon.ico","sizes":"any"}],["$","$L19","17",{}]]
