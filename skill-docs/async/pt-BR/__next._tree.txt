@@ -1,5 +1,5 @@
-:HL["/_next/static/chunks/1crf248habv2k.css","style"]
-:HL["/_next/static/chunks/1c-rohwe_jhvf.css","style"]
+:HL["/_next/static/chunks/3i1mdc4vw1wqa.css","style"]
+:HL["/_next/static/chunks/02hqcfrngx30m.css","style"]
 :HL["/_next/static/media/7226b177135961b4-s.p.3mjzw95c0-_52.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/deb386b9bd551fac-s.p.1pt2_06aomutc.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 5:[["children",{"s":"__PAGE__","h":160}]]
@@ -7,4 +7,4 @@
 3:[["children",{"s":"async","h":96,"c":"$Q4"}]]
 2:[["children",{"s":"skill-docs","h":96,"c":"$Q3"}]]
 1:[["children",{"s":"(pt-BR)","h":112,"c":"$Q2"}]]
-0:{"b":"8ObnAGUb9_q-ZfS9jOcOU","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"jmgm4SK7khfKFT4E4evKK","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
