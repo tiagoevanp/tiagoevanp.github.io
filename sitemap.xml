@@ -4,7 +4,16 @@
 <loc>https://tiagoevanp.com.br/</loc>
 </url>
 <url>
-<loc>https://tiagoevanp.com.br/experience</loc>
+<loc>https://tiagoevanp.com.br/experience/en</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tiagoevanp.com.br/experience/en" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tiagoevanp.com.br/experience/pt-BR" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tiagoevanp.com.br/experience" />
+</url>
+<url>
+<loc>https://tiagoevanp.com.br/experience/pt-BR</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tiagoevanp.com.br/experience/en" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tiagoevanp.com.br/experience/pt-BR" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tiagoevanp.com.br/experience" />
 </url>
 <url>
 <loc>https://tiagoevanp.com.br/skill-docs</loc>
