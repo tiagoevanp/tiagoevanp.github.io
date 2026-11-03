@@ -16,7 +16,16 @@
 <xhtml:link rel="alternate" hreflang="x-default" href="https://tiagoevanp.com.br/experience" />
 </url>
 <url>
-<loc>https://tiagoevanp.com.br/skill-docs</loc>
+<loc>https://tiagoevanp.com.br/skill-docs/en</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tiagoevanp.com.br/skill-docs/en" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tiagoevanp.com.br/skill-docs/pt-BR" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tiagoevanp.com.br/skill-docs/en" />
+</url>
+<url>
+<loc>https://tiagoevanp.com.br/skill-docs/pt-BR</loc>
+<xhtml:link rel="alternate" hreflang="en" href="https://tiagoevanp.com.br/skill-docs/en" />
+<xhtml:link rel="alternate" hreflang="pt-BR" href="https://tiagoevanp.com.br/skill-docs/pt-BR" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://tiagoevanp.com.br/skill-docs/en" />
 </url>
 <url>
 <loc>https://tiagoevanp.com.br/skill-docs/semantic/en</loc>
