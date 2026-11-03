@@ -2,8 +2,8 @@
 2:"/_next/static/chunks/11abu2cqp3v7c.js"
 3:I[72168,["$2"],"default"]
 4:I[82256,["$2"],"default"]
-9:"/_next/static/chunks/423ha39wry1rc.js"
-a:"/_next/static/chunks/1skp7kfg9y74e.js"
+9:"/_next/static/chunks/0w07zo4umayie.js"
+a:"/_next/static/chunks/1v-0us9eeo6yl.js"
 b:I[55803,["$9","$a"],"HtmlLang"]
 c:I[21675,["$9","$a"],"ThemeProvider"]
 d:I[49645,["$9","$a"],"ScreenProvider"]
@@ -11,155 +11,167 @@ e:I[61362,["$9","$a"],"SidebarProvider"]
 f:I[29322,["$9","$a"],"PageNavbar"]
 12:"ClientSegmentRoot"
 13:I[28255,["$2"],"$12"]
-14:"/_next/static/chunks/0poj_kyahzk6a.js"
+14:"/_next/static/chunks/3ezbv9smdrri9.js"
 15:I[3308,["$9","$a","$14"],"SkillDocsLayout"]
 1d:"/_next/static/chunks/2__5ls4dkvmsq.js"
 1e:I[25595,["$9","$a","$14","$1d"],"SectionHeading"]
-2a:"ViewportBoundary"
-2b:I[81007,["$2"],"$2a"]
-2c:"MetadataBoundary"
-2d:I[81007,["$2"],"$2c"]
-2e:"$Sreact.suspense"
-:HL["/_next/static/chunks/0qapjojich-z5.css","style"]
-:HL["/_next/static/chunks/02d3i6ysc5j3a.css","style"]
+1f:I[81672,["$9","$a","$14","$1d"],"CodeBlock"]
+4b:"ViewportBoundary"
+4c:I[81007,["$2"],"$4b"]
+4d:"MetadataBoundary"
+4e:I[81007,["$2"],"$4d"]
+4f:"$Sreact.suspense"
+:HL["/_next/static/chunks/44erz7-rmtb1-.css","style"]
+:HL["/_next/static/chunks/33vp3tnpq5o5m.css","style"]
 6:X
 6:C
 7:X
-1c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","h1",null,{"className":"IwkyZG_h1","children":"Gerenciamento de estado"}],"\n",["$","$L1e",null,{"id":"context-api","className":"IwkyZG_h2","containerClassName":"IwkyZG_h2-container","children":"Context API"}],"\n",["$","p",null,{"className":"IwkyZG_p","children":["A Context API é uma funcionalidade do React que permite compartilhar dados entre componentes sem precisar passar ",["$","code",null,{"children":"props"}]," manualmente em cada nível da árvore de componentes (",["$","em",null,{"children":"prop drilling"}],")."]}],"\n",["$","p",null,{"className":"IwkyZG_p","children":"Exemplo de criação de um contexto e seu provider:"}],"\n",["$","pre",null,{"children":["$","code",null,{"className":"language-javascript","children":"import React, { createContext, useState, useContext } from 'react';\n\nconst ThemeContext = createContext();\n\nexport const ThemeProvider = ({ children }) => {\n  const [isDarkMode, setIsDarkMode] = useState(false);\n\n  const toggleTheme = () => {\n    setIsDarkMode(prev => !prev);\n  };\n\n  const value = {\n    isDarkMode,\n    toggleTheme,\n    theme: isDarkMode ? 'dark' : 'light'\n  };\n\n  return (\n    <ThemeContext.Provider value={value}>\n      {children}\n    </ThemeContext.Provider>\n  );\n};\n\nexport const useTheme = () => {\n  const context = useContext(ThemeContext);\n  \n  if (!context) {\n    throw new Error('useTheme must be used within a ThemeProvider');\n  }\n  \n  return context;\n};\n"}]}],"\n","$L1f","\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26"],["$L27"],"$L28"]}],"p":"$@29","v":null,"s":"$7"}}]]
+1c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","h1",null,{"className":"IwkyZG_h1","children":"Gerenciamento de estado"}],"\n",["$","$L1e",null,{"id":"context-api","className":"IwkyZG_h2","containerClassName":"IwkyZG_h2-container","children":"Context API"}],"\n",["$","p",null,{"className":"IwkyZG_p","children":["A Context API é uma funcionalidade do React que permite compartilhar dados entre componentes sem precisar passar ",["$","code",null,{"children":"props"}]," manualmente em cada nível da árvore de componentes (",["$","em",null,{"children":"prop drilling"}],")."]}],"\n",["$","p",null,{"className":"IwkyZG_p","children":"Exemplo de criação de um contexto e seu provider:"}],"\n",["$","$L1f",null,{"children":["$","code",null,{"className":"language-js","children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"import"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" React, { createContext, useState, useContext } "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"from"}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":" 'react'"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":";"}]]}],"\n","$L20","\n","$L21","\n","$L22","\n","$L23","\n","$L24","\n","$L25","\n","$L26","\n","$L27","\n","$L28","\n","$L29","\n","$L2a","\n","$L2b","\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f","\n","$L30","\n","$L31","\n","$L32","\n","$L33","\n","$L34","\n","$L35","\n","$L36","\n","$L37","\n","$L38","\n","$L39","\n","$L3a","\n","$L3b","\n","$L3c","\n","$L3d","\n","$L3e","\n","$L3f"]}]}],"\n","$L40","\n","$L41","\n","$L42","\n","$L43","\n","$L44","\n","$L45","\n","$L46","\n","$L47"],["$L48"],"$L49"]}],"p":"$@4a","v":null,"s":"$7"}}]]
 1a:[["children",{"s":"pt-BR","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]}],"p":"$@1b","v":"$6","s":"$7"},"c":"$Q1c"}]]
 18:[["children",{"s":"state-management","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]}],"p":"$@19","v":"$6","s":"$7"},"c":"$Q1a"}]]
-11:[["children",{"s":"skill-docs","h":96,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/0poj_kyahzk6a.js","async":true}]],["$","$L13",null,{"Component":"$15","slots":{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]},"serverProvidedParams":{"params":{},"promises":["$@16"]}}]]}],"p":"$@17","v":null,"s":"$7"},"c":"$Q18"}]]
-8:[["children",{"s":"(pt-BR)","h":112,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0qapjojich-z5.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/02d3i6ysc5j3a.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/423ha39wry1rc.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/1skp7kfg9y74e.js","async":true}]],["$","html",null,{"lang":"pt-BR","suppressHydrationWarning":true,"children":["$","body",null,{"className":"JhkFSG_variable JEHSeq_variable","children":["$undefined",["$","$Lb",null,{}],["$","$Lc",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"children":["$","$Ld",null,{"children":["$","$Le",null,{"children":["$","$Lf",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:t:t:d:r:props:children:1:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],[]]}]}]}]}]}]]}]}]]}],"p":"$@10","v":null,"s":"$7"},"c":"$Q11"}]]
-0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}],"p":"$@5","v":"$6","s":"$7"},"c":"$Q8"},"h":{"r":["$","$1","h",{"children":[null,["$","$L2b",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#F7F4EC","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#1C1D19","media":"(prefers-color-scheme: dark)"}],["$","meta","4",{"name":"color-scheme","content":"light dark"}]]}],["$","$L2d",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$2e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Gerenciamento de estado no React | Tiago's Webpage"}],["$","meta","1",{"name":"description","content":"Como gerenciar estado compartilhado em aplicações React com a Context API e com o Redux, seus princípios e um exemplo de store, actions e reducer."}],["$","meta","2",{"name":"author","content":"Tiago the EvanBrother"}],["$","meta","3",{"name":"keywords","content":"Tiago,full-stack,frontend,frontend developer,backend,backend developer,developer,software developer,react,js,javascript,ts,typescript,node.js,next.js,php,laravel,python,ai engineer,agentic ai"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"google","content":"notranslate"}],["$","link","6",{"rel":"canonical","href":"https://tiagoevanp.com.br/skill-docs/state-management/pt-BR"}],["$","link","7",{"rel":"alternate","hrefLang":"en","href":"https://tiagoevanp.com.br/skill-docs/state-management/en"}],["$","link","8",{"rel":"alternate","hrefLang":"pt-BR","href":"https://tiagoevanp.com.br/skill-docs/state-management/pt-BR"}],["$","link","9",{"rel":"alternate","hrefLang":"x-default","href":"https://tiagoevanp.com.br/skill-docs/state-management/en"}],["$","meta","10",{"property":"og:title","content":"Gerenciamento de estado no React | Tiago's Webpage"}],["$","meta","11",{"property":"og:description","content":"Como gerenciar estado compartilhado em aplicações React com a Context API e com o Redux, seus princípios e um exemplo de store, actions e reducer."}],["$","meta","12",{"property":"og:url","content":"https://tiagoevanp.com.br/skill-docs/state-management/pt-BR"}],["$","meta","13",{"property":"og:site_name","content":"Tiago's Webpage"}],["$","meta","14",{"property":"og:locale","content":"pt_BR"}],["$","meta","15",{"property":"og:image","content":"https://tiagoevanp.com.br/tiago.jpg"}],["$","meta","16",{"property":"og:image:width","content":"512"}],["$","meta","17",{"property":"og:image:height","content":"512"}],["$","meta","18",{"property":"og:image:alt","content":"Portrait of Tiago"}],["$","meta","19",{"property":"og:locale:alternate","content":"en_US"}],["$","meta","20",{"property":"og:type","content":"website"}],["$","meta","21",{"name":"twitter:card","content":"summary"}],["$","meta","22",{"name":"twitter:title","content":"Gerenciamento de estado no React | Tiago's Webpage"}],["$","meta","23",{"name":"twitter:description","content":"Como gerenciar estado compartilhado em aplicações React com a Context API e com o Redux, seus princípios e um exemplo de store, actions e reducer."}],"$L2f","$L30","$L31","$L32","$L33","$L34"]}]}],null]}],"$L35"]}],"p":"$@36","v":null,"s":"$7"}},"a":"$@37","u":"$@38","b":"9AVLfETqEZYL6C41wXh9N"}
-3a:"ComparativeTableExample"
-3b:I[60140,["$9","$a","$14","$1d"],"$3a"]
-3c:I[19258,["$9","$a","$14","$1d"],"Footer"]
-3d:I[81007,["$2"],"OutletBoundary"]
-3f:I[43968,["$2"],"IconMark"]
+11:[["children",{"s":"skill-docs","h":96,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/3ezbv9smdrri9.js","async":true}]],["$","$L13",null,{"Component":"$15","slots":{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]},"serverProvidedParams":{"params":{},"promises":["$@16"]}}]]}],"p":"$@17","v":null,"s":"$7"},"c":"$Q18"}]]
+8:[["children",{"s":"(pt-BR)","h":112,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/44erz7-rmtb1-.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/33vp3tnpq5o5m.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0w07zo4umayie.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/1v-0us9eeo6yl.js","async":true}]],["$","html",null,{"lang":"pt-BR","suppressHydrationWarning":true,"children":["$","body",null,{"className":"JhkFSG_variable JEHSeq_variable","children":["$undefined",["$","$Lb",null,{}],["$","$Lc",null,{"attribute":"class","defaultTheme":"system","enableSystem":true,"children":["$","$Ld",null,{"children":["$","$Le",null,{"children":["$","$Lf",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:t:t:d:r:props:children:1:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:t:t:d:r:props:children:1:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$0:t:t:d:r:props:children:1:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],[]]}]}]}]}]}]]}]}]]}],"p":"$@10","v":null,"s":"$7"},"c":"$Q11"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]]}],"p":"$@5","v":"$6","s":"$7"},"c":"$Q8"},"h":{"r":["$","$1","h",{"children":[null,["$","$L4c",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#F7F4EC","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#1C1D19","media":"(prefers-color-scheme: dark)"}],["$","meta","4",{"name":"color-scheme","content":"light dark"}]]}],["$","$L4e",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$4f",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Gerenciamento de estado no React | Tiago's Webpage"}],["$","meta","1",{"name":"description","content":"Como gerenciar estado compartilhado em aplicações React com a Context API e com o Redux, seus princípios e um exemplo de store, actions e reducer."}],["$","meta","2",{"name":"author","content":"Tiago the EvanBrother"}],["$","meta","3",{"name":"keywords","content":"Tiago,full-stack,frontend,frontend developer,backend,backend developer,developer,software developer,react,js,javascript,ts,typescript,node.js,next.js,php,laravel,python,ai engineer,agentic ai"}],["$","meta","4",{"name":"robots","content":"index, follow"}],["$","meta","5",{"name":"google","content":"notranslate"}],["$","link","6",{"rel":"canonical","href":"https://tiagoevanp.com.br/skill-docs/state-management/pt-BR"}],["$","link","7",{"rel":"alternate","hrefLang":"en","href":"https://tiagoevanp.com.br/skill-docs/state-management/en"}],["$","link","8",{"rel":"alternate","hrefLang":"pt-BR","href":"https://tiagoevanp.com.br/skill-docs/state-management/pt-BR"}],["$","link","9",{"rel":"alternate","hrefLang":"x-default","href":"https://tiagoevanp.com.br/skill-docs/state-management/en"}],["$","meta","10",{"property":"og:title","content":"Gerenciamento de estado no React | Tiago's Webpage"}],["$","meta","11",{"property":"og:description","content":"Como gerenciar estado compartilhado em aplicações React com a Context API e com o Redux, seus princípios e um exemplo de store, actions e reducer."}],["$","meta","12",{"property":"og:url","content":"https://tiagoevanp.com.br/skill-docs/state-management/pt-BR"}],["$","meta","13",{"property":"og:site_name","content":"Tiago's Webpage"}],["$","meta","14",{"property":"og:locale","content":"pt_BR"}],["$","meta","15",{"property":"og:image","content":"https://tiagoevanp.com.br/tiago.jpg"}],["$","meta","16",{"property":"og:image:width","content":"512"}],["$","meta","17",{"property":"og:image:height","content":"512"}],["$","meta","18",{"property":"og:image:alt","content":"Portrait of Tiago"}],["$","meta","19",{"property":"og:locale:alternate","content":"en_US"}],["$","meta","20",{"property":"og:type","content":"website"}],["$","meta","21",{"name":"twitter:card","content":"summary"}],["$","meta","22",{"name":"twitter:title","content":"Gerenciamento de estado no React | Tiago's Webpage"}],["$","meta","23",{"name":"twitter:description","content":"Como gerenciar estado compartilhado em aplicações React com a Context API e com o Redux, seus princípios e um exemplo de store, actions e reducer."}],"$L50","$L51","$L52","$L53","$L54","$L55"]}]}],null]}],"$L56"]}],"p":"$@57","v":null,"s":"$7"}},"a":"$@58","u":"$@59","b":"bU0QTjWrPVYy1V7DdmPza"}
+a6:"ComparativeTableExample"
+a7:I[60140,["$9","$a","$14","$1d"],"$a6"]
+a8:I[19258,["$9","$a","$14","$1d"],"Footer"]
+a9:I[81007,["$2"],"OutletBoundary"]
+ab:I[43968,["$2"],"IconMark"]
 16:"$11:0:1:d:r:props:children:1:props:serverProvidedParams:params"
-1f:["$","$L1e",null,{"id":"redux","className":"IwkyZG_h2","containerClassName":"IwkyZG_h2-container","children":"Redux"}]
-20:["$","p",null,{"className":"IwkyZG_p","children":["O Redux é uma biblioteca JavaScript para gerenciamento de estado de aplicações. Ele funciona como um ",["$","em",null,{"children":"container de estado previsível"}]," que ajuda a gerenciar o estado global da sua aplicação de maneira consistente."]}]
-21:["$","p",null,{"className":"IwkyZG_p","children":"Princípios Fundamentais:"}]
-22:["$","ol",null,{"className":"IwkyZG_ol","children":["\n",["$","li",null,{"className":"IwkyZG_li","children":["\n",["$","p",null,{"className":"IwkyZG_p","children":"Single Source of Truth"}],"\n",["$","ul",null,{"className":"IwkyZG_ul","children":["\n",["$","li",null,{"className":"IwkyZG_li","children":"Todo o estado da aplicação está armazenado em um único objeto chamado store"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"className":"IwkyZG_li","children":["\n",["$","p",null,{"className":"IwkyZG_p","children":"State é Read-Only"}],"\n",["$","ul",null,{"className":"IwkyZG_ul","children":["\n",["$","li",null,{"className":"IwkyZG_li","children":"O estado não pode ser modificado diretamente"}],"\n",["$","li",null,{"className":"IwkyZG_li","children":"Mudanças são feitas através de actions"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"className":"IwkyZG_li","children":["\n",["$","p",null,{"className":"IwkyZG_p","children":"Mudanças são Feitas com Pure Functions"}],"\n",["$","ul",null,{"className":"IwkyZG_ul","children":["\n",["$","li",null,{"className":"IwkyZG_li","children":"Reducers são funções puras que especificam como o estado muda"}],"\n"]}],"\n"]}],"\n"]}]
-23:["$","p",null,{"className":"IwkyZG_p","children":"Exemplo de uso:"}]
-39:T79a,// store.js
-import { createStore } from 'redux';
-
-// Actions
-const ADD_TODO = 'ADD_TODO';
-const TOGGLE_TODO = 'TOGGLE_TODO';
-
-// Action Creators
-export const addTodo = (text) => ({
-  type: ADD_TODO,
-  payload: { id: Date.now(), text, completed: false }
-});
-
-export const toggleTodo = (id) => ({
-  type: TOGGLE_TODO,
-  payload: id
-});
-
-// Reducer
-const initialState = {
-  todos: []
-};
-
-const todoReducer = (state = initialState, action) => {
-  switch (action.type) {
-    case ADD_TODO:
-      return {
-        ...state,
-        todos: [...state.todos, action.payload]
-      };
-    
-    case TOGGLE_TODO:
-      return {
-        ...state,
-        todos: state.todos.map(todo =>
-          todo.id === action.payload
-            ? { ...todo, completed: !todo.completed }
-            : todo
-        )
-      };
-    
-    default:
-      return state;
-  }
-};
-
-// Store
-export const store = createStore(todoReducer);
-
-// App.js
-import React from 'react';
-import { Provider } from 'react-redux';
-import { store } from './store';
-import TodoList from './components/TodoList';
-import AddTodo from './components/AddTodo';
-
-function App() {
-  return (
-    <Provider store={store}>
-      <div className="App">
-        <h1>Todo App com Redux</h1>
-        <AddTodo />
-        <TodoList />
-      </div>
-    </Provider>
-  );
-}
-
-// components/AddTodo.js
-import React, { useState } from 'react';
-import { useDispatch } from 'react-redux';
-import { addTodo } from '../store';
-
-const AddTodo = () => {
-  const [text, setText] = useState('');
-  const dispatch = useDispatch();
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (text.trim()) {
-      dispatch(addTodo(text));
-      setText('');
-    }
-  };
-
-  return (
-    <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        value={text}
-        onChange={(e) => setText(e.target.value)}
-        placeholder="Add todo..."
-      />
-      <button type="submit">Add</button>
-    </form>
-  );
-};
-24:["$","pre",null,{"children":["$","code",null,{"className":"language-javascript","children":"$39"}]}]
-25:["$","$L3b",null,{}]
-26:["$","$L3c",null,{}]
-27:["$","script","script-0",{"src":"/_next/static/chunks/2__5ls4dkvmsq.js","async":true}]
-28:["$","$L3d",null,{"children":["$","$2e",null,{"name":"Next.MetadataOutlet","children":"$@3e"}]}]
-2f:["$","meta","24",{"name":"twitter:image","content":"https://tiagoevanp.com.br/tiago.jpg"}]
-30:["$","meta","25",{"name":"twitter:image:alt","content":"Portrait of Tiago"}]
-31:["$","meta","26",{"name":"twitter:image:width","content":"512"}]
-32:["$","meta","27",{"name":"twitter:image:height","content":"512"}]
-33:["$","link","28",{"rel":"icon","href":"/icons/favicon.ico","sizes":"any"}]
-34:["$","$L3f","29",{}]
-35:["$","meta",null,{"name":"next-size-adjust","content":""}]
+20:["$","span",null,{"className":"line"}]
+21:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"const"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" ThemeContext = "}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":"createContext"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"();"}]]}]
+22:["$","span",null,{"className":"line"}]
+23:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"export"}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":" const"}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":" ThemeProvider"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" = ({ "}],["$","span",null,{"style":{"color":"var(--code-constant)"},"children":"children"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" }) "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"=>"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" {"}]]}]
+24:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"  const"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" [isDarkMode, setIsDarkMode] = "}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":"useState"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"("}],["$","span",null,{"style":{"color":"var(--code-constant)"},"children":"false"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":");"}]]}]
+25:["$","span",null,{"className":"line"}]
+26:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"  const"}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":" toggleTheme"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" = () "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"=>"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" {"}]]}]
+27:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-function)"},"children":"    setIsDarkMode"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"("}],["$","span",null,{"style":{"color":"var(--code-constant)"},"children":"prev"}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":" =>"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" !prev);"}]]}]
+28:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"  };"}]}]
+29:["$","span",null,{"className":"line"}]
+2a:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"  const"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" value = {"}]]}]
+2b:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"    isDarkMode,"}]}]
+2c:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"    toggleTheme,"}]}]
+2d:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"    theme: isDarkMode ? "}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":"'dark'"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" : "}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":"'light'"}]]}]
+2e:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"  };"}]}]
+2f:["$","span",null,{"className":"line"}]
+30:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"  return"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" ("}]]}]
+31:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"    <"}],["$","span",null,{"style":{"color":"var(--code-variable)"},"children":"ThemeContext.Provider"}],["$","span",null,{"style":{"color":"var(--code-constant)"},"children":" value"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"={value}>"}]]}]
+32:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"      {children}"}]}]
+33:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"    </"}],["$","span",null,{"style":{"color":"var(--code-variable)"},"children":"ThemeContext.Provider"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":">"}]]}]
+34:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"  );"}]}]
+35:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"};"}]}]
+36:["$","span",null,{"className":"line"}]
+37:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"export"}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":" const"}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":" useTheme"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" = () "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"=>"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" {"}]]}]
+38:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"  const"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" context = "}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":"useContext"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"(ThemeContext);"}]]}]
+39:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"  "}]}]
+3a:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"  if"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" (!context) {"}]]}]
+3b:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"    throw"}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":" new"}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":" Error"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"("}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":"'useTheme must be used within a ThemeProvider'"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":");"}]]}]
+3c:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"  }"}]}]
+3d:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"  "}]}]
+3e:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"  return"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" context;"}]]}]
+3f:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"};"}]}]
+40:["$","$L1e",null,{"id":"redux","className":"IwkyZG_h2","containerClassName":"IwkyZG_h2-container","children":"Redux"}]
+41:["$","p",null,{"className":"IwkyZG_p","children":["O Redux é uma biblioteca JavaScript para gerenciamento de estado de aplicações. Ele funciona como um ",["$","em",null,{"children":"container de estado previsível"}]," que ajuda a gerenciar o estado global da sua aplicação de maneira consistente."]}]
+42:["$","p",null,{"className":"IwkyZG_p","children":"Princípios Fundamentais:"}]
+43:["$","ol",null,{"className":"IwkyZG_ol","children":["\n",["$","li",null,{"className":"IwkyZG_li","children":["\n",["$","p",null,{"className":"IwkyZG_p","children":"Single Source of Truth"}],"\n",["$","ul",null,{"className":"IwkyZG_ul","children":["\n",["$","li",null,{"className":"IwkyZG_li","children":"Todo o estado da aplicação está armazenado em um único objeto chamado store"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"className":"IwkyZG_li","children":["\n",["$","p",null,{"className":"IwkyZG_p","children":"State é Read-Only"}],"\n",["$","ul",null,{"className":"IwkyZG_ul","children":["\n",["$","li",null,{"className":"IwkyZG_li","children":"O estado não pode ser modificado diretamente"}],"\n",["$","li",null,{"className":"IwkyZG_li","children":"Mudanças são feitas através de actions"}],"\n"]}],"\n"]}],"\n",["$","li",null,{"className":"IwkyZG_li","children":["\n",["$","p",null,{"className":"IwkyZG_p","children":"Mudanças são Feitas com Pure Functions"}],"\n",["$","ul",null,{"className":"IwkyZG_ul","children":["\n",["$","li",null,{"className":"IwkyZG_li","children":"Reducers são funções puras que especificam como o estado muda"}],"\n"]}],"\n"]}],"\n"]}]
+44:["$","p",null,{"className":"IwkyZG_p","children":"Exemplo de uso:"}]
+45:["$","$L1f",null,{"children":["$","code",null,{"className":"language-js","children":[["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-comment)"},"children":"// store.js"}]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"import"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" { createStore } "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"from"}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":" 'redux'"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":";"}]]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-comment)"},"children":"// Actions"}]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"const"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" ADD_TODO = "}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":"'ADD_TODO'"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":";"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"const"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" TOGGLE_TODO = "}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":"'TOGGLE_TODO'"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":";"}]]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-comment)"},"children":"// Action Creators"}]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"export"}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":" const"}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":" addTodo"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" = ("}],["$","span",null,{"style":{"color":"var(--code-constant)"},"children":"text"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":") "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"=>"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" ({"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"  type: ADD_TODO,"}]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"  payload: { id: Date."}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":"now"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"(), text, completed: "}],["$","span",null,{"style":{"color":"var(--code-constant)"},"children":"false"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" }"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"});"}]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"export"}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":" const"}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":" toggleTodo"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" = ("}],["$","span",null,{"style":{"color":"var(--code-constant)"},"children":"id"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":") "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"=>"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" ({"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"  type: TOGGLE_TODO,"}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"  payload: id"}]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"});"}]}],"\n",["$","span",null,{"className":"line"}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-comment)"},"children":"// Reducer"}]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"const"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" initialState = {"}]]}],"\n",["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"  todos: []"}]}],"\n","$L5a","\n","$L5b","\n","$L5c","\n","$L5d","\n","$L5e","\n","$L5f","\n","$L60","\n","$L61","\n","$L62","\n","$L63","\n","$L64","\n","$L65","\n","$L66","\n","$L67","\n","$L68","\n","$L69","\n","$L6a","\n","$L6b","\n","$L6c","\n","$L6d","\n","$L6e","\n","$L6f","\n","$L70","\n","$L71","\n","$L72","\n","$L73","\n","$L74","\n","$L75","\n","$L76","\n","$L77","\n","$L78","\n","$L79","\n","$L7a","\n","$L7b","\n","$L7c","\n","$L7d","\n","$L7e","\n","$L7f","\n","$L80","\n","$L81","\n","$L82","\n","$L83","\n","$L84","\n","$L85","\n","$L86","\n","$L87","\n","$L88","\n","$L89","\n","$L8a","\n","$L8b","\n","$L8c","\n","$L8d","\n","$L8e","\n","$L8f","\n","$L90","\n","$L91","\n","$L92","\n","$L93","\n","$L94","\n","$L95","\n","$L96","\n","$L97","\n","$L98","\n","$L99","\n","$L9a","\n","$L9b","\n","$L9c","\n","$L9d","\n","$L9e","\n","$L9f","\n","$La0","\n","$La1","\n","$La2","\n","$La3","\n","$La4","\n","$La5"]}]}]
+46:["$","$La7",null,{}]
+47:["$","$La8",null,{}]
+48:["$","script","script-0",{"src":"/_next/static/chunks/2__5ls4dkvmsq.js","async":true}]
+49:["$","$La9",null,{"children":["$","$4f",null,{"name":"Next.MetadataOutlet","children":"$@aa"}]}]
+50:["$","meta","24",{"name":"twitter:image","content":"https://tiagoevanp.com.br/tiago.jpg"}]
+51:["$","meta","25",{"name":"twitter:image:alt","content":"Portrait of Tiago"}]
+52:["$","meta","26",{"name":"twitter:image:width","content":"512"}]
+53:["$","meta","27",{"name":"twitter:image:height","content":"512"}]
+54:["$","link","28",{"rel":"icon","href":"/icons/favicon.ico","sizes":"any"}]
+55:["$","$Lab","29",{}]
+56:["$","meta",null,{"name":"next-size-adjust","content":""}]
 7:300
-3e:null
-38:true
+5a:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"};"}]}]
+5b:["$","span",null,{"className":"line"}]
+5c:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"const"}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":" todoReducer"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" = ("}],["$","span",null,{"style":{"color":"var(--code-constant)"},"children":"state"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" = initialState, "}],["$","span",null,{"style":{"color":"var(--code-constant)"},"children":"action"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":") "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"=>"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" {"}]]}]
+5d:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"  switch"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" (action.type) {"}]]}]
+5e:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"    case"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" ADD_TODO:"}]]}]
+5f:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"      return"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" {"}]]}]
+60:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"        ...state,"}]}]
+61:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"        todos: [...state.todos, action.payload]"}]}]
+62:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"      };"}]}]
+63:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"    "}]}]
+64:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"    case"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" TOGGLE_TODO:"}]]}]
+65:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"      return"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" {"}]]}]
+66:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"        ...state,"}]}]
+67:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"        todos: state.todos."}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":"map"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"("}],["$","span",null,{"style":{"color":"var(--code-constant)"},"children":"todo"}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":" =>"}]]}]
+68:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"          todo.id === action.payload"}]}]
+69:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"            ? { ...todo, completed: !todo.completed }"}]}]
+6a:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"            : todo"}]}]
+6b:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"        )"}]}]
+6c:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"      };"}]}]
+6d:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"    "}]}]
+6e:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"    default"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":":"}]]}]
+6f:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"      return"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" state;"}]]}]
+70:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"  }"}]}]
+71:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"};"}]}]
+72:["$","span",null,{"className":"line"}]
+73:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-comment)"},"children":"// Store"}]}]
+74:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"export"}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":" const"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" store = "}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":"createStore"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"(todoReducer);"}]]}]
+75:["$","span",null,{"className":"line"}]
+76:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-comment)"},"children":"// App.js"}]}]
+77:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"import"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" React "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"from"}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":" 'react'"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":";"}]]}]
+78:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"import"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" { Provider } "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"from"}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":" 'react-redux'"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":";"}]]}]
+79:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"import"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" { store } "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"from"}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":" './store'"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":";"}]]}]
+7a:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"import"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" TodoList "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"from"}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":" './components/TodoList'"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":";"}]]}]
+7b:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"import"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" AddTodo "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"from"}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":" './components/AddTodo'"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":";"}]]}]
+7c:["$","span",null,{"className":"line"}]
+7d:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"function"}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":" App"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"() {"}]]}]
+7e:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"  return"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" ("}]]}]
+7f:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"    <"}],["$","span",null,{"style":{"color":"var(--code-variable)"},"children":"Provider"}],["$","span",null,{"style":{"color":"var(--code-constant)"},"children":" store"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"={store}>"}]]}]
+80:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"      <"}],["$","span",null,{"style":{"color":"var(--code-variable)"},"children":"div"}],["$","span",null,{"style":{"color":"var(--code-constant)"},"children":" className"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"="}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":"\"App\""}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":">"}]]}]
+81:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"        <"}],["$","span",null,{"style":{"color":"var(--code-variable)"},"children":"h1"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":">Todo App com Redux</"}],["$","span",null,{"style":{"color":"var(--code-variable)"},"children":"h1"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":">"}]]}]
+82:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"        <"}],["$","span",null,{"style":{"color":"var(--code-variable)"},"children":"AddTodo"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" />"}]]}]
+83:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"        <"}],["$","span",null,{"style":{"color":"var(--code-variable)"},"children":"TodoList"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" />"}]]}]
+84:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"      </"}],["$","span",null,{"style":{"color":"var(--code-variable)"},"children":"div"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":">"}]]}]
+85:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"    </"}],["$","span",null,{"style":{"color":"var(--code-variable)"},"children":"Provider"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":">"}]]}]
+86:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"  );"}]}]
+87:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"}"}]}]
+88:["$","span",null,{"className":"line"}]
+89:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-comment)"},"children":"// components/AddTodo.js"}]}]
+8a:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"import"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" React, { useState } "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"from"}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":" 'react'"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":";"}]]}]
+8b:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"import"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" { useDispatch } "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"from"}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":" 'react-redux'"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":";"}]]}]
+8c:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"import"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" { addTodo } "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"from"}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":" '../store'"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":";"}]]}]
+8d:["$","span",null,{"className":"line"}]
+8e:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"const"}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":" AddTodo"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" = () "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"=>"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" {"}]]}]
+8f:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"  const"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" [text, setText] = "}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":"useState"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"("}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":"''"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":");"}]]}]
+90:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"  const"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" dispatch = "}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":"useDispatch"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"();"}]]}]
+91:["$","span",null,{"className":"line"}]
+92:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"  const"}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":" handleSubmit"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" = ("}],["$","span",null,{"style":{"color":"var(--code-constant)"},"children":"e"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":") "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"=>"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" {"}]]}]
+93:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"    e."}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":"preventDefault"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"();"}]]}]
+94:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"    if"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" (text."}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":"trim"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"()) {"}]]}]
+95:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-function)"},"children":"      dispatch"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"("}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":"addTodo"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"(text));"}]]}]
+96:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-function)"},"children":"      setText"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"("}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":"''"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":");"}]]}]
+97:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"    }"}]}]
+98:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"  };"}]}]
+99:["$","span",null,{"className":"line"}]
+9a:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"  return"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":" ("}]]}]
+9b:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"    <"}],["$","span",null,{"style":{"color":"var(--code-variable)"},"children":"form"}],["$","span",null,{"style":{"color":"var(--code-constant)"},"children":" onSubmit"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"={handleSubmit}>"}]]}]
+9c:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"      <"}],["$","span",null,{"style":{"color":"var(--code-variable)"},"children":"input"}]]}]
+9d:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-constant)"},"children":"        type"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"="}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":"\"text\""}]]}]
+9e:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-constant)"},"children":"        value"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"={text}"}]]}]
+9f:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-constant)"},"children":"        onChange"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"={("}],["$","span",null,{"style":{"color":"var(--code-constant)"},"children":"e"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":") "}],["$","span",null,{"style":{"color":"var(--code-keyword)"},"children":"=>"}],["$","span",null,{"style":{"color":"var(--code-function)"},"children":" setText"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"(e.target.value)}"}]]}]
+a0:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-constant)"},"children":"        placeholder"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"="}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":"\"Add todo...\""}]]}]
+a1:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"      />"}]}]
+a2:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"      <"}],["$","span",null,{"style":{"color":"var(--code-variable)"},"children":"button"}],["$","span",null,{"style":{"color":"var(--code-constant)"},"children":" type"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"="}],["$","span",null,{"style":{"color":"var(--code-string)"},"children":"\"submit\""}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":">Add</"}],["$","span",null,{"style":{"color":"var(--code-variable)"},"children":"button"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":">"}]]}]
+a3:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"    </"}],["$","span",null,{"style":{"color":"var(--code-variable)"},"children":"form"}],["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":">"}]]}]
+a4:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"  );"}]}]
+a5:["$","span",null,{"className":"line","children":["$","span",null,{"style":{"color":"var(--code-foreground)"},"children":"};"}]}]
+aa:null
+59:true
 7:C
-37:0
+58:0
 1b:"$undefined"
 19:"$undefined"
 10:"$undefined"
 5:"$undefined"
-36:"$undefined"
+57:"$undefined"
 17:"$undefined"
-29:"$undefined"
+4a:"$undefined"
